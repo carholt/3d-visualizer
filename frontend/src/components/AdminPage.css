@@ -1,0 +1,88 @@
+.admin-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.admin-section {
+  margin-bottom: 30px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.add-model-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.model-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.model-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.model-preview img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.model-info {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.model-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.delete-confirmation {
+  background-color: #f8d7da;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user-management {
+  margin-top: 30px;
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.associated-users select {
+  margin-bottom: 10px;
+}
+
+.associated-users ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.error-message {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}

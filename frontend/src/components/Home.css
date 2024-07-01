@@ -1,0 +1,50 @@
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.model-viewer {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-control, .date-control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.model-list {
+  display: flex;
+  gap: 10px;
+}
+
+.model-list button {
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.model-list button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.no-models {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-top: 50px;
+}
